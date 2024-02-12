@@ -10,7 +10,7 @@ namespace ConsoleApp15
             {
                 if (b == 0)
                 {
-                    return 2;
+                    return 0;
                 }
                 else
                     return b * Math.Cos((b - 1) * x) + F(x, --b);
